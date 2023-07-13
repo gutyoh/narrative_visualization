@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="resources/css/styles.css"/>
+    <title>Evolution of Netflix Content</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
+</head>
+<body>
+<h1>Evolution of <span style="color: #b20710">Netflix's</span> Content</h1>
+
+<p>This scene visualizes the growth in the quantity of content that Netflix has produced over time, and the type of the
+    content.<br>The chart below presents a timeline on the x-axis and the count of Movies and TV Shows on the
+    y-axis.<br><br>Explore
+    the progression of Netflix's content production over the years and observe how their focus has shifted between
+    <b>Movies and TV shows</b>.</p>
+
+<svg id="chart" width="1920" height="920"></svg>
+
+<div class="navigation">
+    <a href="scene1.html" class="scene_button active" style="font-weight: bolder">Scene 1</a>
+    <a href="scene2.html" class="scene_button" style="background: #b20710; color: #f5f5f1">Scene 2</a>
+    <a href="scene3.html" class="scene_button" style="background: #e50914; color: #f5f5f1">Scene 3</a>
+</div>
+
+<script src="resources/js/navigation.js"></script>
+<script src="resources/js/scene1.js"></script>
+<footer>
+    <div id="myFooter">
+<span id="orientationText" class="orientations">
+    <br>
+          Use the <img class="keyboardIconSize" src="resources/images/keyboard_key_left.png"><img
+        class="keyboardIconSize" src="resources/images/keyboard_key_right.png"> keys to navigate.
+      Hover over data points to view information.</span>
+    </div>
+</footer>
+</body>
+</html>

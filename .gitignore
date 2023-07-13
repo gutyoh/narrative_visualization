@@ -1,0 +1,4 @@
+# .gitignore file for narrative_visualization project
+
+# Ignore WebStorm project settings
+.idea/
